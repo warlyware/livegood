@@ -1,0 +1,104 @@
+extends layout
+
+block content
+  .container
+    .row
+      .col-xs-7
+        img.logo(src='images/logo.png')
+      .col-xs-2
+        input(type='text', placeholder='Email: Join our list!')
+      .col-xs-3.login.pull-right
+        ul
+          li LOGIN
+          li SHOPPING BAG
+            img(src='images/icon_bag.gif')
+
+    .row
+      .col-xs-12
+        div.menu-bar.pull-right
+          span Proucts 
+          span 
+            a(href='/mission') Our Mission
+          span Sustainablity
+          span Dye Process
+          span Olympic Gold Standard
+          span Press
+    .row
+      .col-xs-2.side-menu
+        ul
+          li OUR MISSION
+          li ORGANIC SUPIMA
+          li OUR DYE PROCESS
+          li SUSTAINABILITY
+          li PRESS
+      .col-xs-10.mission-content
+        div.header-img
+          img(src='images/about-us-new.jpg')
+          .col-xs-3
+            p.dilemma-text LIVE GOOD WAS CREATED IN RESPONSE TO A DILEMMA:
+            p.environment-text How can you take great care of yourself while acting responsibly toward the environment?
+
+
+
+          .col-xs-9
+            p
+              :markdown
+                We all want to live a good life — one in which we contribute something positive to the world. But we also yearn for "the good life," a state in which our own mental and physical health is in balance.
+
+                How can you achieve both goals, caring for your community and environment while respecting your own needs for personal fulfillment?
+
+                We founded Live Good to forge a path toward that dual achievement. We believe you don't need to compromise. You can live sustainably, supporting the long-term health of your neighbors and the planet, and also live well, in elegance and comfort. We want to help you find that state of harmony with nature, with your community, and with yourself.
+
+                So we've started a business that reflects this ethos: a Live Good line of home products that upholds each and every aspect of our mission. Everything we make is local. Everything is sustainably sourced and organic. And everything is designed to increase your quality of life. We haven't sacrificed luxury and beauty in our commitment to supporting practices that are ecologically and economically sound.
+
+                We've begun with Sheeting & Duvets, Decorative Pillows, and our Baby Collection, all made of organic cotton and produced in Orange County, California. We searched for materials of the highest quality, grown and manufactured according to the strictest environmental standards. All our products are free of pesticides, synthetic fertilizers, and irradiation. The result is a pure, natural fabric that is as healthy for you as it is for the soil, air, and water, and the agricultural community that supports its production.
+
+                We also insisted on local producers who have committed to keeping jobs in the United States. Everything that goes into our products – from the fabric to the thread to the natural wood buttons – is Made in the U.S.A. This not only ensures compliance with environmental and ethical standards, but it also means that we're supporting local families and the employers who have chosen to stay on U.S. soil.
+
+                We hope you will look through our collection, but we also want to hear from you on the larger issues that drive our mission. Through our blog and our Facebook page, we're exploring topics of sustainability and environmental responsibility. Please join us online and get involved in this ongoing conversation.
+
+                Our Live Good products are the tangible expression of our values. We hope to offer something you can be proud to bring home, adding a layer of comfort and elegance to your space while supporting organic agriculture and local production.
+
+                There's much more to come – this is just the beginning – so please stay connected with us as we continue to develop ways to help you Live Good.
+
+
+
+
+
+          .col-xs-12.mission-items
+            .luxurious-text LUXURIOUS, 100% CERTIFIED ORGANIC, SUSTAINABLE
+            .shop-text Shop the Live Good Designer Home Collection
+            .col-xs-4
+              h5 Sheeting & Duvets
+              img(src='images/info_img1.jpg')
+            .col-xs-4
+              h5 Decorative Pillows
+              img(src='images/info_img2.jpg')
+            .col-xs-4
+              h5 Baby Collection
+              img(src='images/info_img3.jpg')
+
+
+    .row.footer
+      .col-xs-12
+        div.pull-left
+          span FOLLOW US: 
+          img.social(src='images/facebook.png')
+          img.social(src='images/twitter.png')
+          img.social(src='images/pinterest.png')
+        div.pull-right
+          span HOME
+          span BLOG
+          span FAQ
+          span WHOLESALE
+          span SHIPPING & RETURN POLICY
+          span TERMS OF USE
+          span CONTACT US
+      .col-xs-12
+        div.pull-left
+          img.facebook-img(src='images/flike.png')
+          span.facebook
+            :markdown
+              9,576 people like this.  [Sign up](http://facebook.com/ "Facebook") to see what your friends like.
+
+        span.copyright.pull-right COPYRIGHT © 2011-2012 LIVE GOOD, INC. ALL RIGHTS RESERVED.

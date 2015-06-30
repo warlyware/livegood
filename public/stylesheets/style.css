@@ -1,0 +1,151 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a, a:visited, a:active, a:hover {
+  color: #727272;
+  text-decoration: none;
+}
+
+
+
+input {
+  font-size: 0.5em;
+  line-height: 0;
+}
+
+.copyright {
+  color: #8d8a83;
+  margin-top: 35px;
+}
+
+.dilemma-text {
+  color: green;
+  font-size: 1em;
+}
+
+.facebook {
+  float: right;
+  margin-top: 35px;
+}
+
+.facebook-img {
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.footer {
+  padding-top: 10px;
+  margin-top: 20px;
+  border-top: 1px dotted #b1c297;
+  font-size: 0.8em;
+}
+
+.footer .pull-left {
+  margin-left: -20px;
+}
+
+.footer .pull-right {
+  color: #8d8a83;
+}
+
+.footer span {
+  margin-left: 10px;
+}
+
+.login {
+  color: #8d8a83;
+  float: right;
+  text-align: right;
+}
+
+ul {
+  list-style: none;
+}
+
+.login ul img {
+  margin-left: 10px;
+}
+
+.logo {
+
+}
+
+.header-img {
+  margin-top: 10px;
+}
+
+.luxurious-text {
+  color: #64891D;
+  font-size: 0.7em;
+}
+
+.menu-bar {
+  float: right;
+  color: #727272;
+}
+
+.menu-bar span {
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+
+.mission-content .col-xs-3 {
+  background-color: #F0EFEB;
+  height: 725px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.mission-content .col-xs-9 {
+  margin-top: 10px;
+}
+
+.mission-items {
+  padding-top: 10px;
+  margin-top: 20px;
+  border-top: 1px dotted #b1c297;
+}
+
+.mission-items img {
+  width: 225px;  
+}
+
+.mission-items .col-xs-4 {
+  padding-left: 0px;
+}
+
+.product-name {
+  font-weight: bold;
+  color: #65851F;
+}
+
+.products-row {
+  margin-top: 15px;
+}
+
+.products-row img {
+  width: 99.85%;
+}
+
+.side-menu {
+  border-top: 1px dotted #b1c297;
+  color: #727272;
+  font-size: 0.8em;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.side-menu li {
+  margin-bottom: 8px;
+}
+
+.side-menu ul {
+  padding: 0;
+}
+
+.shop-text {
+  color: #64891D;
+  font-size: 1.2em;
+}

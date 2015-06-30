@@ -1,0 +1,75 @@
+extends layout
+
+block content
+  .container
+    .row
+      .col-xs-7
+        a(href='/')
+          img.logo(src='images/logo.png')
+      .col-xs-2
+        input(type='text', placeholder='Email: Join our list!')
+        //- span.glyphicon.glyphicon-envelope
+      .col-xs-3.login.pull-right
+        ul
+          li LOGIN
+          li SHOPPING BAG
+            img(src='images/icon_bag.gif')
+
+    .row
+      .col-xs-12
+        div.menu-bar.pull-right
+          span Proucts 
+          span 
+            a(href='/mission') Our Mission
+          span Sustainablity
+          span Dye Process
+          span Olympic Gold Standard
+          span Press
+    .row
+      .col-xs-12
+        div.header-img
+          img(src='images/jumbotron.jpg')
+    .row.products-row
+      .col-xs-4
+        img(src='images/designer.jpg')
+        p.product-name New Organic Supima Collection
+        :markdown
+          Live Good is one of the few companies in the world with access to Organic Supima cotton. Known as the “cashmere of cotton,” Supima’s longer strand length creates the softest and strongest cotton fabric available, retaining brilliant color and lustrous sheen.  **»Learn More**
+
+      .col-xs-4
+        img(src='images/organic.jpg')
+        .product-name 100% Certified Organic Product Line
+        p.product-desc 
+         :markdown
+          The harmful effects of chemical pesticides and fertilizers on human and environmental health have been well documented. Conscientious consumers look for natural products that have undergone rigorous inspection to earn the organic label.  **»Learn More**
+
+      .col-xs-4
+        img(src='images/mission.jpg')
+        .product-name Our Mission and Ethics         
+        p.product-desc 
+         :markdown
+          Live Good is one of the few companies in the world with access to Organic Supima cotton. Known as the “cashmere of cotton,” Supima’s longer strand length creates the softest and strongest cotton fabric available, retaining brilliant color and lustrous sheen.  **»Learn More**
+
+    .row.footer
+      .col-xs-12
+        div.pull-left
+          span FOLLOW US: 
+          img.social(src='images/facebook.png')
+          img.social(src='images/twitter.png')
+          img.social(src='images/pinterest.png')
+        div.pull-right
+          span HOME
+          span BLOG
+          span FAQ
+          span WHOLESALE
+          span SHIPPING & RETURN POLICY
+          span TERMS OF USE
+          span CONTACT US
+      .col-xs-12
+        div.pull-left
+          img.facebook-img(src='images/flike.png')
+          span.facebook
+            :markdown
+              9,576 people like this.  [Sign up](http://facebook.com/ "Facebook") to see what your friends like.
+
+        span.copyright.pull-right COPYRIGHT © 2011-2012 LIVE GOOD, INC. ALL RIGHTS RESERVED.
